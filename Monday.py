@@ -12,5 +12,3 @@ def containsDuplicate(self, nums: [int]) -> bool:
                 d[number] += 1
                 return True
         return False
-        
-
