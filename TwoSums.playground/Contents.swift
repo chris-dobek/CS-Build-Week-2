@@ -9,12 +9,12 @@ func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
             }
             dict[num] = i
         }
-        fatalError("No numbers equal the target")
+        return []
 }
 
 print(twoSum([1,2,3,4], 7))
 print("--------")
 print(twoSum([6, 4, 3, 9, 10], 19))
 print("--------")
-print(twoSum([4, 7, 8, 9, 1], 11))
+print(twoSum([4, 7, 8, 9, 1], 20))
 
